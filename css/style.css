@@ -166,6 +166,7 @@ img {
   z-index: var(--z-fixed);
   top: 0;
   left: 0;
+  
 }
 
 .nav {
@@ -173,6 +174,8 @@ img {
   position: relative;
   align-items: center;
   justify-content: space-between;
+  height: var(--header-height);
+
 }
 
 .nav-logo {
@@ -208,13 +211,14 @@ img {
 @media screen and (max-width :1150px) {
   .nav-menu {
     position: fixed;
-    top: 0;
+    top: -100%;
     left: 0;
     background-color: var(--body-color);
     width: 100%;
     padding-block: 5rem 4rem;
     transition: top .4s;
     box-shadow: 0 12px 24px var(--shadow-color);
+    height: 10vh;
   }
 }
 
@@ -234,6 +238,12 @@ img {
 
 .nav-link:hover {
   color: var(--first-color);
+}
+
+.nav-close{
+  position: absolute;
+  top: 1.15rem;
+  right: 1.15rem;
 }
 
 /* Show menu */
