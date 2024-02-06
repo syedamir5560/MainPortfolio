@@ -190,7 +190,7 @@ img {
 .header {
   position: fixed;
   width: 100%;
-  background-color: var(--first-color);
+  background-color: transparent;
   transition: background-color .4s, box-shadow .4s;
   z-index: var(--z-fixed);
   top: 0;
