@@ -156,6 +156,30 @@ img {
   overflow: hidden;
 }
 
+
+.perfil{
+  width: 250px;
+  height: 250px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background-color: var(--body-color);
+  border: 8px solid var(--first-color);
+  transition: background-color  .4s;
+}
+
+.perfil-content{
+  width: 180px;
+  height: 180px;
+  border: 10px solid var(--first-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+  align-items: flex-end;
+}
+
 /*=============== HEADER & NAV ===============*/
 
 .header {
@@ -285,6 +309,25 @@ img {
 
 
 /*=============== HOME ===============*/
+
+.home{
+  border-bottom: 8px solid var(--first-color);
+  position: relative;
+}
+
+.home-rectangle{
+  width: 100%;
+  height: 220px;
+  background-color: var(--first-color);
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;  
+}
+
+.home-container{
+  padding-block: 1rem 3rem;
+}
 
 
 /*=============== ABOUT ===============*/
