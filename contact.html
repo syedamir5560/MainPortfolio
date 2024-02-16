@@ -53,8 +53,48 @@
     <!-- main -->
 
     <main class="main">
+        <!-- contact section -->
+
+        <section class="contact section">
+            <div class="contact__container container grid">
+                <h2 class="section__title">
+                    Let's Talk <br>
+                    About Your Project
+                </h2>
+
+                <div class="contact__page container grid">
+                    <form action="" class="contact__form grid" id="contact-form">
+                        <div class="contact__group grid">
+                            <div class="contact__box">
+                                <input type="text" name="user_name" id="name" required placeholder="Enter First Name..."
+                                    class="contact__input">
+                                <label for="name" class="contact__label">First Name</label>
+                            </div>
+
+                            <div class="contact__box">
+                                <input type="email" name="user_email" id="email" required
+                                    placeholder="Enter Email Address..." class="contact__input">
+                                <label for="email" class="contact__label">Email Address</label>
+                            </div>
+
+                        </div>
+
+                        <div class="contact__box contact__area">
+                            <textarea name="user_message" id="message" required placeholder="Write Your Message... "
+                                class="contact__input"></textarea>
+                            <label for="message" class="contact__label">Message</label>
+                        </div>
+
+                        <p class="contact__message" id="contact-message"></p>
+
+                        <button type="submit" class="contact__send button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
 
     </main>
+
 
     <!-- footer -->
     <footer class="footer">
@@ -63,9 +103,12 @@
 
 
     <script src="js/main.js"></script>
-    <script src=""></script>
-    <script src="js/index.js"></script>
-    <script src="js/swipper.js "></script>
+    <!-- Email send jd file -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+
+    <script src="js/contact.js"></script>
 </body>
 
 </html>
