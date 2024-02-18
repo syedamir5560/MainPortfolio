@@ -32,3 +32,7 @@ const scrollUp=()=>{
 }
 
 window.addEventListener('scroll' , scrollUp)
+
+// dark theme
+
+
