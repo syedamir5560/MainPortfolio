@@ -20,3 +20,15 @@ const modal = document.querySelectorAll('.services__model'),
 
     })
  })
+
+
+//  scroll up
+
+const scrollUp=()=>{
+   const scrollUp = document.getElementById('scroll-up')
+   // when scrol is higher then 350 viw port hight 
+   this.scrollY >=   350 ? scrollUp.classList.add('show-scroll')
+   : scrollUp.classList.remove('show-scroll') 
+}
+
+window.addEventListener('scroll' , scrollUp)
