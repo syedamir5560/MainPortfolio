@@ -151,6 +151,26 @@ body.dark-theme {
 	the website, in dark theme
 ==========*/
 
+.dark-theme .bg-header{
+  box-shadow: 0 12px 24px var(--shadow-color);
+}
+
+.dark-theme .service__model{
+  background-color: hsla(var(--hue), 90%, 8%, .2);
+}
+
+.dark-theme::-webkit-scrollbar{
+  background-color: hsl(var(--hue), 16% , 15%);
+}
+
+.dark-theme::-webkit-scrollbar-thumb{
+  background-color: hsl(var(--hue), 16% , 25%);
+}
+.dark-theme::-webkit-scrollbar-thumb:hover{
+  background-color: hsl(var(--hue), 16% , 35%);
+}
+
+
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
@@ -301,8 +321,16 @@ body.dark-theme {
   top: 0;
 }
 
-
 /* Change background header */
+
+.bg-header{
+  background-color: var(--body-color);
+  box-shadow: 0 2px 16px var(--shadow-color);
+}
+
+.bg-header:is(.nav__logo , .nav__toggle , .change-theme){
+  color: var(--title-color);
+}
 
 
 /* Header background color of other pages */
