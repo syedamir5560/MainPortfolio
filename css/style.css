@@ -226,8 +226,8 @@ body.dark-theme {
 
 
 .perfil-img{
-  width:500px;
-  height:210px;
+  width:183px;
+  height:172px;
 } 
 /*=============== HEADER & NAV ===============*/
 
@@ -393,6 +393,7 @@ body.dark-theme {
 
 .home-name {
   font-size: var(--biggest-font-size);
+  /* width: 500px; */
 }
 
 .home-profession {
@@ -922,8 +923,8 @@ body.dark-theme {
   }
 
   .perfil-img{
-    width: 200px;
-    height: 200px;
+    width: 183px;
+    height: 172px;
   }
 
 
@@ -981,8 +982,8 @@ body.dark-theme {
 }
 
 .perfil-img{
-  width: 500px;
-  height: 400px;
+  width: 347px;
+  height: 338px;
 
 }
 
