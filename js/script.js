@@ -21,9 +21,6 @@ ScrollTrigger.scrollerProxy(".main", {
     pinType: document.querySelector(".main").style.transform ? "transform" : "fixed"
 });
 
-
-
-
 // each time the window updates, we should refresh ScrollTrigger and then update LocomotiveScroll. 
 ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 
@@ -139,6 +136,16 @@ gsap.from('.footer .footer__container', {
         // scrub: true
     }
 })
+
+
+// about me
+
+
+
+
+
+
+
 
 
 
