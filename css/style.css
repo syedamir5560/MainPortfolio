@@ -1055,7 +1055,8 @@ body.dark-theme {
   justify-content: center;
   align-items: center;
   column-gap: 25rem;
-  padding-block: 1rem 5rem;
+  padding-block: 5rem 5rem;
+
 
 }
 
