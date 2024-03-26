@@ -437,12 +437,10 @@ body.dark-theme {
 }
 
 .about__content {
-  row-gap: 4rem;
-}
-
-.about__content {
   row-gap: 2rem;
 }
+
+
 
 .about__data {
   row-gap: 2rem;
@@ -939,7 +937,7 @@ body.dark-theme {
   }
 
   .section{
-    padding-block: 7rem 2rem;
+    padding-block: 2rem 2rem;
   }
 
   .section__title{
@@ -966,11 +964,12 @@ body.dark-theme {
   color: var(--title-color);
 }
 
-.perfil{
-  width: 500px;
-  height: 500px;
-  border-width: 15px;
 
+
+.perfil {
+  width: 459px;
+  height: 439px;
+  border-width: 13px;
 }
 
 .perfil-content{
